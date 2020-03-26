@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Submission 2</string>
+    <string name="overview">Kilasan Singkat</string>
+    <string name="user_score">Skor Pengguna :</string>
+    <string name="runtime">Durasi :</string>
+    <string name="change_language_setting">Konfigurasi Bahasa</string>
+    <string name="moviedetail">Detail Film</string>
+    <string name="tvshowdetail">Detail Serial Tv</string>
+    <string name="movietab">Film</string>
+    <string name="tvshowtab">Serial Tv</string>
+    <string name="genre">Genre :</string>
+    <string name="poster_image">poster image</string>
+    <string name="time_image">time image</string>
+    <string name="star_image">Start Image</string>
+
+    <string-array name="data_movie_title">
+        <item>Overlord</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Creed II</item>
+        <item>How To Train Your Dragon</item>
+        <item>Glass</item>
+        <item>Avenger: Infinity War</item>
+        <item>Alita Battle Angel</item>
+        <item>Aquaman</item>
+        <item>A Star Is Born</item>
+        <item>Ralph Breaks The Internet</item>
+    </string-array>
+
+    <string-array name="data_movie_poster">
+        <item>@drawable/poster_overlord</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_how_to_train</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_infinity_war</item>
+        <item>@drawable/poster_alita</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_a_start_is_born</item>
+        <item>@drawable/poster_ralph</item>
+    </string-array>
+
+    <string-array name="data_movie_release">
+        <item>1 November 2018</item>
+        <item>6 Desember 2018</item>
+        <item>24 Oktober 2018</item>
+        <item>21 November 2018</item>
+        <item>3 Januari 2019</item>
+        <item>16 Januari 2019</item>
+        <item>25 April 2018</item>
+        <item>31 Januari 2019</item>
+        <item>7 Desember 2018</item>
+        <item>3 Oktober 2018</item>
+        <item>20 November 2018</item>
+    </string-array>
+
+    <string-array name="data_movie_showtime">
+        <item>1j 50m</item>
+        <item>1j 57m</item>
+        <item>2j 15m</item>
+        <item>2j 10m</item>
+        <item>1j 44m</item>
+        <item>2j 9m</item>
+        <item>2j 29m</item>
+        <item>2j 2m</item>
+        <item>2j 24m</item>
+        <item>2j 15m</item>
+        <item>1j 52m</item>
+    </string-array>
+
+    <string-array name="data_movie_rating">
+        <item>66%</item>
+        <item>84%</item>
+        <item>81%</item>
+        <item>67%</item>
+        <item>76%</item>
+        <item>65%</item>
+        <item>83%</item>
+        <item>67%</item>
+        <item>68%</item>
+        <item>75%</item>
+        <item>72%</item>
+    </string-array>
+
+    <string-array name="data_movie_genre">
+        <item>Horror, War, Science Fiction</item>
+        <item>Action, Adventure, Animation, Science Fiction, Comedy</item>
+        <item>Drama, Music</item>
+        <item>Drama</item>
+        <item>Animation, Family, Adventure</item>
+        <item>Thriller, Mystery, Drama</item>
+        <item>Adventure, Action, Fantasy</item>
+        <item>Action, Science Fiction, Thriller, Adventure</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Drama , Romance, Music</item>
+        <item>Family, Animation, Comedy, Adventure</item>
+    </string-array>
+
+    <string-array name="data_movie_overview">
+        <item>Prancis, Juni 1944. Menjelang Hari-H beberapa pasukan terjun payung Amerika jatuh di belakang garis musuh setelah pesawat mereka jatuh saat dalam misi untuk menghancurkan menara radio di sebuah desa kecil di dekat pantai Normandia. Setelah mencapai target mereka, pasukan terjun payung yang masih hidup menyadari bahwa, selain melawan pasukan Nazi yang berpatroli di desa, mereka juga harus bertarung melawan sesuatu yang lain. </item>
+        <item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Saat Wilson \ "Kingpin \" Fisk menggunakan collider super, yang lain dari seberang Spider-Verse diangkut ke dimensi ini. </item>
+        <item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercurys yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band tetap bersama di tengah kesuksesan dan kelebihan. </item>
+        <item>Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya. </item>
+        <item>Saat Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless dari pasangan yang liar dan sulit ditangkap menarik Night Fury pergi. Ketika bahaya meningkat di rumah dan Hiccups berkuasa saat kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka </item>
+        <item>Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai orkestra yang menyimpan rahasia penting bagi keduanya. </item>
+        <item>Saat Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala sesuatu yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya tidak pernah lebih tidak pasti. </item>
+        <item>Ketika Alita terbangun tanpa ingatan siapa dia di dunia masa depan yang tidak dia kenal, dia dibawa oleh Ido, seorang dokter yang penuh kasih yang menyadari bahwa di suatu tempat di cangkang cyborg yang ditinggalkan ini adalah hati dan jiwa seorang wanita muda dengan masa lalu yang luar biasa. </item>
+        <item>Setelah menjadi rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan. Yang menghalangi jalannya adalah Arthur Curry, lelaki setengah manusia Orms, setengah lelaki Atlantis dan pewaris sejati takhta. </item>
+        <item>Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karier Allys lepas landas, sisi pribadi dari hubungan mereka hancur, karena Jack berjuang terus-menerus dengan setan internalnya sendiri. </item>
+        <item>Orang jahat di video game Ralph dan rekannya yang tidak sesuai Vanellope von Schweetz harus mengambil risiko dengan bepergian ke World Wide Web untuk mencari bagian pengganti untuk menyelamatkan video game Vanellopes, Sugar Rush. Di atas kepala mereka, Ralph dan Vanellope mengandalkan warga internet para netizen untuk membantu menavigasi jalan mereka, termasuk seorang pengusaha bernama Yesss, yang merupakan algoritma kepala dan jantung dan jiwa dari situs pembuat tren BuzzzTube. </item>
+    </string-array>
+
+    <string-array name="data_tvshow_title">
+        <item>NCIS</item>
+        <item>Shameless</item>
+        <item>Greys Anatomy</item>
+        <item>Naruto Shippuden</item>
+        <item>Doom Patrol</item>
+        <item>Family Guy</item>
+        <item>Dragonball</item>
+        <item>Fairytail</item>
+        <item>The Flash</item>
+        <item>Hanna</item>
+        <item>Arrow</item>
+    </string-array>
+
+    <string-array name="data_tvshow_poster">
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_shameless</item>
+        <item>@drawable/poster_grey_anatomy</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_family_guy</item>
+        <item>@drawable/poster_dragon_ball</item>
+        <item>@drawable/poster_fairytail</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_hanna</item>
+        <item>@drawable/poster_arrow</item>
+    </string-array>
+
+    <string-array name="data_tvshow_release">
+        <item>23 September 2003</item>
+        <item>9 Januari 2011</item>
+        <item>28 Maret 2019</item>
+        <item>15 Februari 2007</item>
+        <item>15 Februari 2019</item>
+        <item>31 Januari 1999</item>
+        <item>26 Februari 1986</item>
+        <item>12 Oktober 2009</item>
+        <item>7 Oktober2014</item>
+        <item>28 Maret 2019</item>
+        <item>10 Oktober 2012</item>
+    </string-array>
+
+    <string-array name="data_tvshow_runtime">
+        <item>45m</item>
+        <item>60m, 55m</item>
+        <item>43m</item>
+        <item>22m</item>
+        <item>60m</item>
+        <item>22m</item>
+        <item>25m</item>
+        <item>25m</item>
+        <item>44m</item>
+        <item>50m</item>
+        <item>42m</item>
+    </string-array>
+
+    <string-array name="data_tvshow_userscore">
+        <item>67%</item>
+        <item>78%</item>
+        <item>63%</item>
+        <item>75%</item>
+        <item>61%</item>
+        <item>65%</item>
+        <item>71%</item>
+        <item>64%</item>
+        <item>67%</item>
+        <item>64%</item>
+        <item>58%</item>
+    </string-array>
+
+    <string-array name="data_tvshow_genre">
+        <item>Action, Adventure, Crime, Drama</item>
+        <item>Drama, Comedy</item>
+        <item>Drama</item>
+        <item>Animation, Comedy, Drama</item>
+        <item>Sci-Fi, Fantasy, Action, Adventure</item>
+        <item>Animation, Comedy</item>
+        <item>Comedy, Sci-Fi, Fantasy, Animation, Action, Adventure</item>
+        <item>Action ,Adventure, Animation, Comedy, Aci-Fi, Fantasy</item>
+        <item>Drama, Sci-Fi, Fantasy</item>
+        <item>Action, Adventure, Drama</item>
+        <item>Crime, Drama, Mystery, Action, Adventure</item>
+    </string-array>
+
+    <string-array name="data_tvshow_overview">
+        <item>Dari pembunuhan dan spionase hingga terorisme dan kapal selam curian, tim agen khusus menyelidiki kejahatan apa pun yang memiliki sedikit bukti yang terhubung dengan personel Korps Angkatan Laut dan Korps Marinir, terlepas dari pangkat atau posisi. </item>
+        <item>Frank Gallagher dari Chicago adalah ayah tunggal yang bangga dari enam anak yang cerdas, rajin, mandiri, yang tanpanya. mungkin lebih baik. Ketika kaum Frank tidak berada di bar menghabiskan sedikit uang yang mereka miliki, dia pingsan di lantai. Tetapi anak-anak telah menemukan cara untuk tumbuh meskipun dia. Mereka mungkin tidak seperti keluarga yang Anda kenal, tetapi mereka tidak meminta maaf karena menjadi siapa mereka sebenarnya. </item>
+        <item>Mengikuti kehidupan pribadi dan profesional sekelompok dokter di Seattles Grey Sloan Memorial Hospital. </item>
+        <item>Naruto Shippuuden adalah kelanjutan dari serial TV animasi asli Naruto. Ceritanya berkisar pada Naruto Uzumaki yang lebih tua dan sedikit lebih matang dan upayanya untuk menyelamatkan temannya Uchiha Sasuke dari cengkeraman Shinobi seperti ular, Orochimaru. Setelah 2 setengah tahun, Naruto akhirnya kembali ke desanya Konoha, dan mulai membuat ambisinya untuk bekerja, walaupun itu tidak akan mudah, karena Dia telah mengumpulkan beberapa musuh (lebih berbahaya), seperti organisasi shinobi. , Akatsuki. </item>
+        <item>Anggota Patroli Doom masing-masing mengalami kecelakaan mengerikan yang memberi mereka kemampuan manusia super - tetapi juga membuat mereka terluka dan cacat. Trauma dan tertindas, tim menemukan tujuan melalui Ketua, yang menyatukan mereka untuk menyelidiki fenomena paling aneh yang ada - dan untuk melindungi Bumi dari apa yang mereka temukan. </item>
+        <item>Serial animasi Freakin Sweet yang sakit, terpelintir, tidak tepat secara politis, dan menampilkan petualangan keluarga Griffin yang disfungsional. Peter yang kikuk dan Lois yang sudah lama menderita memiliki tiga anak. Stewie (bayi yang brilian tetapi sadis yang bertekad membunuh ibunya dan mengambil alih dunia), Meg (yang tertua, dan merupakan gadis yang paling tidak populer di kota) dan Chris (anak tengah, dia tidak terlalu cerdas tetapi memiliki hasrat untuk film) ). Anggota terakhir keluarga itu adalah Brian - anjing yang bisa bicara dan lebih dari sekadar hewan peliharaan, ia menjaga Stewie, sambil menghirup Martinis dan memilah-milah masalah hidupnya sendiri. </item>
+        <item>Dahulu kala di pegunungan, seorang master pertempuran yang dikenal sebagai Gohan menemukan seorang bocah aneh yang ia beri nama Goku. Gohan membesarkannya dan melatih Goku dalam seni bela diri sampai dia mati. Bocah muda dan sangat kuat itu sendirian, tetapi mudah dikelola. Kemudian suatu hari, Goku bertemu dengan seorang gadis remaja bernama Bulma, yang pencariannya untuk bola naga membawanya ke rumah Gokus. Bersama-sama, mereka berangkat untuk menemukan ketujuh bola naga dalam sebuah petualangan yang akan mengubah hidup Gokus selamanya. Lihat bagaimana Goku bertemu teman-teman seumur hidupnya Bulma, Yamcha, Krillin, Master Roshi dan banyak lagi. Dan lihat petualangannya sebagai anak laki-laki, semuanya mengarah ke Dragonball Z dan kemudian Dragonball GT. </item>
+        <item>Lucy adalah gadis berusia 17 tahun, yang ingin menjadi penyihir penuh. Suatu hari ketika mengunjungi Kota Harujion, dia bertemu Natsu, seorang pemuda yang mudah sakit karena segala jenis transportasi. Tapi Natsu bukan sembarang anak biasa, dia anggota dari salah satu guild mage yang paling terkenal, Fairy Tail. </item>
+        <item>Setelah akselerator partikel menyebabkan badai aneh, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia bangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat. Meskipun awalnya bersemangat dengan kekuatan barunya, Barry terkejut menemukan bahwa dia bukan satu-satunya manusia meta yang diciptakan setelah ledakan akselerator dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Barry bermitra dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat yang hidup, tetapi itu tidak akan lama sebelum dunia mengetahui apa yang menjadi Barry Allen. Flash. </item>
+        <item>Drama thriller dan usia dewasa ini mengikuti perjalanan seorang gadis muda yang luar biasa saat ia menghindari pengejaran tanpa henti dari seorang agen CIA yang tidak ada buku dan mencoba untuk menggali kebenaran di balik siapa dirinya. Berdasarkan film Joe Wright 2011. </item>
+        <item>Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas ketika kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian seorang pria yang berubah, bertekad untuk membersihkan kota sebagai main hakim sendiri bersenjatakan busur. </item>
+    </string-array>
+</resources>

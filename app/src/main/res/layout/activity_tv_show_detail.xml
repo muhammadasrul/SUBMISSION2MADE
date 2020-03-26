@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    tools:context=".TvShowDetailActivity">
+
+    <ImageView
+        android:id="@+id/img_tvshow_detail"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txt_tvshow_title_detail"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_tvshow_detail"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Judul TV Show" />
+
+    <TextView
+        android:id="@+id/txt_tvshow_release_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/img_tvshow_detail"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tvshow_title_detail"
+        tools:text="tanggal rilis" />
+
+    <TextView
+        android:id="@+id/tv_tvshow_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/genre"
+        app:layout_constraintStart_toEndOf="@id/img_tvshow_detail"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tvshow_release_detail"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_tvshow_genre"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@id/img_tvshow_detail"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tvshow_genre"
+        tools:text="genre" />
+
+    <TextView
+        android:id="@+id/tv_tvshow_runtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/runtime"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/img_tvshow_detail"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tvshow_genre"/>
+
+    <TextView
+        android:id="@+id/txt_tvshow_runtime_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        tools:text="1h 32m"
+        app:layout_constraintStart_toEndOf="@id/img_tvshow_detail"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tvshow_runtime" />
+
+    <TextView
+        android:id="@+id/tv_tvshow_userscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/user_score"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/img_tvshow_detail"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tvshow_runtime_detail"/>
+
+    <TextView
+        android:id="@+id/txt_tvshow_userscore_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        tools:text="75%"
+        app:layout_constraintStart_toEndOf="@id/img_tvshow_detail"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tvshow_userscore" />
+
+    <TextView
+        android:id="@+id/tvshow_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/overview"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/img_tvshow_detail" />
+
+    <TextView
+        android:id="@+id/txt_tvshow_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvshow_overview"
+        tools:text="overview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
